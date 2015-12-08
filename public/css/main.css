@@ -1,0 +1,162 @@
+.lora {
+  font-family: 'Lora', serif;
+}
+.cafe {
+  color: #825126;
+}
+textarea {
+  resize: none;
+}
+body {
+  background: #f9f3dd;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  padding-top: 55px;
+}
+.navbar-default {
+  background: #fff;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: #805125;
+  height: 4px;
+  width: 30px;
+}
+.banner {
+  background: transparent url("../../images/banner.jpg") no-repeat center center;
+  height: 400px;
+  font-size: 19em;
+  color: #fff;
+  padding-top: 40px;
+}
+h1.intro {
+  color: #825126;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.block-photo {
+  margin-bottom: 70px;
+}
+.block-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.ig-block figure {
+  padding: 0;
+  margin: 0;
+}
+.ig-block img {
+  width: 90%;
+  height: auto;
+  display: block;
+}
+.ig-block .hashtag {
+  font-size: 1.4em;
+}
+.venue-date {
+  background: #fff;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.venue-date .col-sm-4 {
+  margin-bottom: 20px;
+}
+.venue-date h2 {
+  font-size: 3.6em;
+}
+.venue-date span {
+  font-size: 7em;
+}
+.venue-date p.title {
+  font-size: 3.4em;
+  text-transform: uppercase;
+}
+.venue-date hr.cafe {
+  margin: -10px auto 0 auto;
+  width: 50px;
+  border: 1px solid #825126;
+}
+.venue-date p.text {
+  padding-top: 20px;
+  font-size: 1.2em;
+}
+.venue-date a.mapa {
+  background: #825126;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  padding: 8px 0;
+  font-size: 1.2em;
+}
+.wish {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+form {
+  padding-bottom: 30px;
+}
+.btn.btn-primary {
+  background: #825126;
+  border-color: #825126;
+  color: #fff;
+  font-size: 1.2em;
+  width: 100%;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus {
+  background: rgba(130,81,38,0.8);
+  border-color: #825126;
+}
+@media screen and (min-width: 480px) {
+  .banner {
+    font-size: 26em;
+  }
+  .ig-block img {
+    width: 100%;
+  }
+  .ig-block p {
+    font-size: 1.6em;
+  }
+  .ig-block .hashtag {
+    font-size: 1.6em;
+  }
+  .venue-date a.mapa {
+    width: 60%;
+    margin: 20px auto;
+    font-size: 1.2em;
+  }
+  form {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .btn.btn-primary {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1.intro {
+    font-size: 2em;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 0 20%;
+  }
+  .venue-date a.mapa {
+    width: 100%;
+  }
+  form {
+    width: 680px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
