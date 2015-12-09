@@ -57,12 +57,13 @@
 		<p class="wish text-center lora cafe">¡Nos encantaría que vinieras a celebrar con nosotros!</p>
 		<p class="text-center">El siguiente formulario es solamente para confirmar tu asistencia</p>
 		
-		{!! Form::open() !!}
+		{!! Form::open(['url'=>'sendmail', 'id'=>'contactForm']) !!}
+
 			<div class="form-group">
-				{!! Form::text('nombre', null, ['class'=>'form-control', 'placeholder'=>'*Nombre']) !!}
+				{!! Form::text('nombre', null, ['class'=>'form-control', 'placeholder'=>'*Nombre', 'data-validate'=>'required']) !!}
 			</div>
 			<div class="form-group">
-				{!! Form::text('correo', null, ['class'=>'form-control', 'placeholder'=>'Correo']) !!}
+				{!! Form::text('correo', null, ['class'=>'form-control', 'placeholder'=>'Correo', 'data-validate'=>'required|email']) !!}
 			</div>
 			<div class="form-group">
 				{!! Form::radio('confirma', null, true, []) !!} ¡Sí, confirmo mi asistencia!

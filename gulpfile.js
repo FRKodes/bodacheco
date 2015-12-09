@@ -14,7 +14,7 @@ elixir(function(mix) {
 		       	'bootstrap.min.js',
 		       	'custom.js'
 		       	], '/public/js/all.js', '/public/js')
-		.version(['public/css/all.css', 'public/css/all.js']);
+		.version(['public/css/all.css', 'public/js/all.js']);
     
     mix.livereload(['public/**/*', 'resources/views/**/*']);
 });
