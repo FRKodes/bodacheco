@@ -1,19 +1,16 @@
-<section>
+<section id="inicio">
 	<div class="container-fluid banner">
 		<p class="icon-a-1 text-center"></p>
 	</div>
 
-	<div class="container">
+	<div class="container" id="galeria">
 		<h1 class="intro text-center lora">ESTO ES UNA PEQUEÑA PARTE DE NUESTRA HISTORIA</h1>
-		<div class="col-sm-4 block-photo"><img src="images/photo.jpg" alt=""></div>
-		<div class="col-sm-4 block-photo"><img src="images/photo.jpg" alt=""></div>
-		<div class="col-sm-4 block-photo"><img src="images/photo.jpg" alt=""></div>
-		<div class="col-sm-4 block-photo"><img src="images/photo.jpg" alt=""></div>
-		<div class="col-sm-4 block-photo"><img src="images/photo.jpg" alt=""></div>
-		<div class="col-sm-4 block-photo"><img src="images/photo.jpg" alt=""></div>
-		<div class="col-sm-4 block-photo hidden-xs"><img src="images/photo.jpg" alt=""></div>
-		<div class="col-sm-4 block-photo hidden-xs"><img src="images/photo.jpg" alt=""></div>
-		<div class="col-sm-4 block-photo hidden-xs"><img src="images/photo.jpg" alt=""></div>
+		<div class="col-sm-4 block-photo"><img src="images/01.jpg" alt="Foto Boda Checo 01"></div>
+		<div class="col-sm-4 block-photo"><img src="images/02.jpg" alt="Foto Boda Checo 02"></div>
+		<div class="col-sm-4 block-photo"><img src="images/03.jpg" alt="Foto Boda Checo 03"></div>
+		<div class="col-sm-4 block-photo"><img src="images/04.jpg" alt="Foto Boda Checo 04"></div>
+		<div class="col-sm-4 block-photo"><img src="images/05.jpg" alt="Foto Boda Checo 05"></div>
+		<div class="col-sm-4 block-photo"><img src="images/06.jpg" alt="Foto Boda Checo 06"></div>
 
 		<div class="col-xs-10 col-sm-6 ig-block col-xs-offset-1 col-sm-offset-3">
 			<figure class="col-xs-3"><img src="images/instagram_icon.svg" alt="Instagram #checoyflaca"></figure>
@@ -21,7 +18,7 @@
 		</div>
 	</div>
 
-	<div class="container-fluid venue-date">
+	<div class="container-fluid venue-date" id="evento">
 		
 		<h2 class="title cafe lora text-center">EL EVENTO</h2>
 
@@ -29,7 +26,7 @@
 			<span class="icon-d-2 cafe"></span>
 			<p class="title lora">Cuándo</p>
 			<hr class="cafe">
-			<p class="text txt-center">22 de Enero de 2016</p>
+			<p class="text txt-center">22 DE ENERO 2016</p>
 		</div>
 		
 		<div class="col-sm-4 text-center">
@@ -37,23 +34,22 @@
 			<p class="title lora">Dónde</p>
 			<hr class="cafe">
 			<p class="text txt-center">
-				Nombre de lugar <br>
-				Dirección del lugar <br>
-				Ciudad, Estado.
+				CEREMONIA: PARROQUIA SAN JAVIER DE LAS COLINAS<br>Dirección: Paseo Loma Ancha,<br> Colinas de San Javier, 44660 <br><br>
+				RECEPCIÓN: CASA CLEMENTINA
 			</p>
-			<a href="#" class="mapa" target="_blank" title="Ver mapa">VER MAPA</a>
+			<a href="https://goo.gl/maps/7vZFjVwX5BR2" class="mapa" target="_blank" title="Ver mapa">VER MAPA</a>
 		</div>
 		
 		<div class="col-sm-4 text-center">
 			<span class="icon-b-1 cafe"></span>
 			<p class="title lora">Hora</p>
 			<hr class="cafe">
-			<p class="text txt-center">17:00 Hrs.</p>
+			<p class="text txt-center">CEREMONIA: 7PM <br>RECEPCIÓN: 8PM</p>
 		</div>
 
 	</div>
 
-	<div class="container">
+	<div class="container" id="rsvp">
 		<p class="wish text-center lora cafe">¡Nos encantaría que vinieras a celebrar con nosotros!</p>
 		<p class="text-center">El siguiente formulario es solamente para confirmar tu asistencia</p>
 		

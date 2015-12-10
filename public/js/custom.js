@@ -33,6 +33,7 @@ $(function(){
 				action		= form.attr( "action"),
 				url			= action;
 
+				console.log(' ::::: ');
 			var posting = $.post(
 				url, { n: nombre, e: email, c: confirma, _token: _token, m: mensaje }
 			);
@@ -46,4 +47,14 @@ $(function(){
 			autoDetect : true, debug : true
 		};
 	var $validate = $('#contactForm').validate(formSettings).data('validate');
+});
+
+$('.navbar-nav li').on('click', function(){
+    var position_ = $(this).attr('class');
+    console.log(position_);
+    $('html, body').animate({
+        scrollTop: $('#' + position_).offset().top-80
+    }, 500);
+    $('.navbar-nav li').removeClass('active');
+    $(this).addClass('active');
 });

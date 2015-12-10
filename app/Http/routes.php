@@ -24,3 +24,7 @@
 Route::get('/', function(){
 	return View::make('homepage');
 });
+
+Route::post('sendmail', 'PagesController@sendmail');
+
+	
