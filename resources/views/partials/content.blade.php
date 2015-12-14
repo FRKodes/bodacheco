@@ -75,15 +75,5 @@
 			
 		{!! Form::close() !!}
 
-
 	</div>
 </section>
-
-
-
-
-
-
-
-
-
