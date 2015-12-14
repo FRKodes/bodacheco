@@ -8,4 +8,5 @@
 <meta property="og:title" content="">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="">
+<meta name="csrf-token" content="{{ csrf_token() }}" />
 <title>Boda Checo</title>

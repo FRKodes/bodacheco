@@ -8,9 +8,6 @@
 		<div class="col-sm-4 block-photo"><img src="images/01.jpg" alt="Foto Boda Checo 01"></div>
 		<div class="col-sm-4 block-photo"><img src="images/02.jpg" alt="Foto Boda Checo 02"></div>
 		<div class="col-sm-4 block-photo"><img src="images/03.jpg" alt="Foto Boda Checo 03"></div>
-		<div class="col-sm-4 block-photo"><img src="images/04.jpg" alt="Foto Boda Checo 04"></div>
-		<div class="col-sm-4 block-photo"><img src="images/05.jpg" alt="Foto Boda Checo 05"></div>
-		<div class="col-sm-4 block-photo"><img src="images/06.jpg" alt="Foto Boda Checo 06"></div>
 
 		<div class="col-xs-10 col-sm-6 ig-block col-xs-offset-1 col-sm-offset-3">
 			<figure class="col-xs-3"><img src="images/instagram_icon.svg" alt="Instagram #checoyflaca"></figure>
@@ -62,10 +59,10 @@
 				{!! Form::text('correo', null, ['class'=>'form-control', 'placeholder'=>'Correo', 'data-validate'=>'required|email']) !!}
 			</div>
 			<div class="form-group">
-				{!! Form::radio('confirma', null, true, []) !!} ¡Sí, confirmo mi asistencia!
+				{!! Form::radio('confirma', 'SI', true, []) !!} ¡Sí, confirmo mi asistencia!
 			</div>
 			<div class="form-group">
-				{!! Form::radio('confirma', null, null, []) !!} Lo siento, no podré asistir :(
+				{!! Form::radio('confirma', 'NO', null, []) !!} Lo siento, no podré asistir :(
 			</div>
 			<div class="form-group">
 				{!! Form::textarea('mensaje', null, ['class'=>'form-control', 'placeholder'=>'Déjanos un mensaje de felicitación o comentario']) !!}
@@ -73,6 +70,8 @@
 			<div class="form-group">
 				{!! Form::submit('Enviar', ['class'=>'btn btn-primary']) !!}
 			</div>
+
+			<div class="sent_mail_alert lora">¡Gracias!</div>
 			
 		{!! Form::close() !!}
 

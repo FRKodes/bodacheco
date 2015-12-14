@@ -27,4 +27,6 @@ Route::get('/', function(){
 
 Route::post('sendmail', 'PagesController@sendmail');
 
+// Route::get('sendmail', 'PagesController@sendmail');
+
 	

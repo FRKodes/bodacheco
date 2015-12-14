@@ -12,6 +12,11 @@ m),c=this,q=["checkGroupRequired","checkGroupMin","checkGroupMax"];c.$form=f;c.v
 function(a){a=d("[data-validate]",a===l?c.$form:a);h.autoDetect&&(a=d("input[required]").add(a));return a};c.checkRequired=function(a){return 0<a.val().length?!0:!1};c.checkRequiredCheckbox=function(a){return a.is(":checked")};c.checkGroupRequired=function(a){return a.filter(":checked").length?!0:!1};c.checkGroupMin=function(a,b){return a.filter(":checked").length>=b};c.checkGroupMax=function(a,b){return a.filter(":checked").length<=b};c.checkCustomRegExp=function(a,b,c){if(""===a.val())return!0;
 b=RegExp(b,c);return a.val().match(b)?!0:!1};c.checkRegExp=function(a,b){return a.val().match(h.regExp[b])?!0:!1};c.checkMaxLength=function(a,b){return""===a.val()?!0:a.val().length<=b};c.checkMinLength=function(a,b){return""===a.val()?!0:a.val().length>=b};c.checkMax=function(a,b){return""===a.val()?!0:parseFloat(a.val())<=parseFloat(b)};c.checkMin=function(a,b){return""===a.val()?!0:parseFloat(a.val())>=parseFloat(b)}}})(window,jQuery);
 
+$.ajaxSetup
+({
+   headers : {'X-CSRF-TOKEN' : $('meta[name="csrf-token"]').attr('content')}
+});
+
 /*validator*/
 $(function(){	
 	var formSettings = {
@@ -26,19 +31,24 @@ $(function(){
 		overallSuccess : function(){
 			var form    	= $('#contactForm'),
 				nombre		= form.find( "input[name='nombre']").val(),
-				email		= form.find( "input[name='email']").val(),
-				confirma	= form.find( "radio[name='confirma']").val(),
+				email		= form.find( "input[name='correo']").val(),
+				confirma	= form.find( "input[type='radio']:checked").val(),
 				_token		= form.find( "input[name='_token']").val(),
 				mensaje		= form.find( "textarea[name='mensaje']").val(),
 				action		= form.attr( "action"),
 				url			= action;
 
-				console.log(' ::::: ');
+
+			// var selected = $("#radioDiv input[type='radio']:checked");
+			// if (selected.length > 0) {
+			//     confirma = selected.val();
+			// }
+
 			var posting = $.post(
 				url, { n: nombre, e: email, c: confirma, _token: _token, m: mensaje }
 			);
 			posting.done(function( data ){
-				console.log('email sent!');
+				console.log('email sent! \n' + data );
 				$('#contactForm')[0].reset();
 				$('.sent_mail_alert').fadeIn().delay(3000).fadeOut();
 			});
@@ -51,7 +61,6 @@ $(function(){
 
 $('.navbar-nav li').on('click', function(){
     var position_ = $(this).attr('class');
-    console.log(position_);
     $('html, body').animate({
         scrollTop: $('#' + position_).offset().top-80
     }, 500);
