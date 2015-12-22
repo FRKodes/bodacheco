@@ -46,6 +46,20 @@
 
 	</div>
 
+	<div class="container-fluid text-center">
+		<h2 class="title cafe lora text-center">MESA DE REGALOS</h2>
+
+		<div class="col-sm-4 col-sm-offset-2">
+			<h3>Palacio de Hierro</h3>
+			<a class="btn btn-primary" target="_blank" href="http://www.elpalaciodehierro.com/celebra/view/index/id/296082/#results" title="Ver mesa de regalos de el Palacio de Hierro">Ver mesa</a>
+		</div>
+		<div class="col-sm-4">
+			<h3>From Me</h3>
+			<a class="btn btn-primary" href="https://fromme.mx/mesa/030" target="_blank" title="Ver mesa de regalos de el Palacio de Hierro">Ver mesa</a>
+		</div>
+	</div>
+
+
 	<div class="container" id="rsvp">
 		<p class="wish text-center lora cafe">¡Nos encantaría que vinieras a celebrar con nosotros!</p>
 		<p class="text-center">El siguiente formulario es solamente para confirmar tu asistencia</p>

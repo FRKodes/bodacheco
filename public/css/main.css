@@ -7,6 +7,12 @@
 textarea {
   resize: none;
 }
+#rsvp {
+  padding-top: 60px;
+}
+.col-sm-4 {
+  margin-top: 40px;
+}
 body {
   background: #f9f3dd;
   color: #000;
@@ -162,6 +168,9 @@ form {
   }
 }
 @media screen and (min-width: 768px) {
+  .col-sm-4 {
+    margin-top: 10px;
+  }
   body {
     padding-top: 50px;
   }
