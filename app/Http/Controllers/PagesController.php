@@ -15,7 +15,7 @@ class PagesController extends Controller {
 		
 		Mail::send('emails.contacto', [], function($message)
 		{
-		    $message->to('checobarrerasepulveda@gmail.com,frkalderon@gmail.com', 'Checo Barrera')->subject('Email Boda Checo.');
+		    $message->to('frkalderon@gmail.com', 'Checo Barrera')->subject('Email Boda Checo.');
 		});
 	}
 
