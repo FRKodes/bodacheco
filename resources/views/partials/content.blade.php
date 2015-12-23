@@ -54,9 +54,19 @@
 			<a class="btn btn-primary" target="_blank" href="http://www.elpalaciodehierro.com/celebra/view/index/id/296082/#results" title="Ver mesa de regalos de el Palacio de Hierro">Ver mesa</a>
 		</div>
 		<div class="col-sm-4">
-			<h3>From Me</h3>
-			<a class="btn btn-primary" href="https://fromme.mx/mesa/030" target="_blank" title="Ver mesa de regalos de el Palacio de Hierro">Ver mesa</a>
+			<h3>From Me (código 030)</h3>
+			<a class="btn btn-primary" href="https://fromme.mx/novios/anapaolaysergio" target="_blank" title="Ver mesa de regalos de el Palacio de Hierro">Ver mesa</a>
 		</div>
+
+		<div class="col-sm-4 col-sm-offset-2">
+			<h3>Liverpool</h3>
+			<a class="btn btn-primary" target="_blank" href="http://www.liverpool.com.mx/tienda/giftregistry/giftRegistryDetail.jsp?eventNo=1&eventDNo=37214445&_requestid=848515#" title="Ver mesa de regalos de el Palacio de Hierro">Ver mesa</a>
+		</div>
+		<div class="col-sm-4">
+			<img src="images/singular.png" alt="singular">
+			<a class="btn btn-primary" href="http://singulartaller.com/" target="_blank" title="Ver mesa singulartaller.com">Ver sitio</a>
+		</div>
+
 	</div>
 
 
