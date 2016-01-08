@@ -166,6 +166,8 @@ h1.intro {
 .hoteles {
   margin-top: -40px;
   padding-top: 30px;
+  padding-bottom: 50px;
+  background: #fff;
 }
 .wish {
   margin-top: 20px;
