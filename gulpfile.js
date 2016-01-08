@@ -1,6 +1,6 @@
 var elixir = require('laravel-elixir');
 require('laravel-elixir-stylus');
-require('laravel-elixir-livereload');
+// require('laravel-elixir-livereload');
 
 elixir(function(mix) {
     mix.stylus('main.styl')
@@ -16,5 +16,5 @@ elixir(function(mix) {
 		       	], '/public/js/all.js', '/public/js')
 		.version(['public/css/all.css', 'public/js/all.js']);
     
-    mix.livereload(['public/**/*', 'resources/views/**/*']);
+    // mix.livereload(['public/**/*', 'resources/views/**/*']);
 });
