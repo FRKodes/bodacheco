@@ -44,23 +44,20 @@
 			<p class="text txt-center">CEREMONIA: 7PM <br>RECEPCIÓN: 8PM</p>
 		</div>
 
-
-	</div>
-
-	<div class="container-fluid venue-date">
-		
+		<br>
+				
 		<h2 class="title cafe lora text-center">Hoteles</h2>
 
 		<div class="col-md-4 text-center">
-			<h3><a href="http://www.hoteldemetria.com/" target="_blank">Hotel Demetria</a></h3>
+			<h3><a class="negro" href="http://www.hoteldemetria.com/" target="_blank">Hotel Demetria</a></h3>
 			<p>&nbsp;</p>
 		</div>
 		<div class="col-md-4 text-center">
-			<h3><a href="http://www.casafayette.com/" target="_blank">Casa Fayette</a></h3>
+			<h3><a class="negro" href="http://www.casafayette.com/" target="_blank">Casa Fayette</a></h3>
 			<p>Referencia: "BODA CHECO & FLACA"</p>
 		</div>
 		<div class="col-md-4 text-center">
-			<h3><a href="http://www.fiestamericanagrand.com/es/web/grand-fiesta-americana-guadalajara-country-club" target="_blank">Fiesta Americana</a></h3>
+			<h3><a class="negro" href="http://www.fiestamericanagrand.com/es/web/grand-fiesta-americana-guadalajara-country-club" target="_blank">Fiesta Americana</a></h3>
 			<p>Referencia: “Habitaciones Boda”</p>
 		</div>
 
